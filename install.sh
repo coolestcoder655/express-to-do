@@ -1,10 +1,16 @@
 #!/bin/bash
 
 ## BACKEND
+echo 'Backend installation...'
+
 cd server
 pnpm install
 
+cd ..
+
 ## FRONTEND
+echo 'Frontend installation...'
+
 cd client
 pnpm install
 
